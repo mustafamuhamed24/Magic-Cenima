@@ -1,0 +1,406 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    padding: 0px 40px;
+    background-color: transparent;
+}
+
+.nav-logo a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    color: white;
+    margin: 20px 0px;
+}
+
+#bar-icon {
+    position: absolute;
+    margin-top: 10px;
+    font-size: 29px;
+    margin-left: 100%;
+    visibility: hidden;
+}
+
+.navlist {
+    display: flex;
+    margin-left: 15px;
+    list-style: none;
+    text-align: center;
+}
+
+.navlist li a {
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-left: 25px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+.navlist li a:hover,
+.navlist .active {
+    transition: .3s;
+    border: 1px solid white;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+}
+
+.nav-logo h2 {
+    margin-left: 15px;
+}
+
+.card img {
+    display: inline-block;
+    padding: 2px;
+    border-radius: 6px;
+    margin: 0px 20px;
+    width: 50px;
+}
+
+.card img {
+    display: block;
+    width: 250px;
+    margin-left: -20px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+.card img:hover {
+    padding: 10px;
+    transition: .3s;
+}
+
+.movie-info {
+    display: flex;
+    color: white;
+    line-height: 40px;
+    justify-content: center;
+    margin: 80px 0px;
+}
+
+.movie-about {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#movie-name {
+    margin-left: 0px;
+    font-size: 50px;
+}
+
+.movie-about h1 {
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.movie-about b {
+    font-size: larger;
+}
+
+#booking-movie h2 {
+    margin-top: 70px;
+    color: white;
+    text-align: center;
+}
+
+#booking-movie hr {
+    width: 200px;
+    margin: 20px auto;
+}
+
+#booking-info {
+    margin-top: 50px;
+    position: relative;
+    z-index: 100;
+}
+
+#booking-info h2 {
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+
+#booking-info hr {
+    width: 280px;
+    margin: 20px auto;
+}
+
+#booking-info {
+    text-align: center;
+}
+
+#booking-info form input {
+    padding: 8px 25px;
+    background-color: rgb(46, 46, 46);
+    border: 0;
+    border-radius: 4px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#booking-info form input::placeholder {
+    padding: 0px 5px;
+}
+
+#Booking {
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#Booking:hover {
+    text-align: center;
+    padding: 10px 20px;
+    transition: .3s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+}
+
+#show-time {
+    color: rgba(131, 31, 31, 0.831);
+}
+
+.footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 60px;
+    align-items: center;
+    background-color: rgba(29, 37, 48, 0.348);
+    height: 5rem;
+}
+
+.nav-logo-footer {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo-footer a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+}
+
+.nav-logo-footer h2 {
+    margin-left: 15px;
+}
+
+#contact-us i {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+#contact-us i:hover {
+    font-size: 45px;
+    transition: .3s;
+}
+
+.copyRight a {
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.542);
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: medium;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* small */
+@media (min-width: 320px) and (max-width:479px) {
+    header {
+        position: relative;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 10;
+        color: white;
+        margin: 20px -10px;
+        margin-left: -30px;
+    }
+
+    #bar-icon {
+        position: absolute;
+        margin-top: 10px;
+        font-size: 29px;
+        visibility: visible;
+    }
+
+    .nav-logo {
+        width: 100%;
+    }
+
+    .navlist {
+        margin: 0px auto;
+        flex-direction: column;
+        line-height: 80px;
+        visibility: hidden;
+        height: 0;
+    }
+
+    .showNav {
+        margin: 0px auto;
+        flex-direction: column;
+        line-height: 80px;
+        visibility: visible;
+        height: auto;
+    }
+
+    #booking-movie h2 {
+        margin-top: 50px;
+    }
+
+    .movie-info {
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+
+    .movie-info img{
+    margin-left: 15px;
+    }
+
+    .movie-about {
+        text-align: center;
+    }
+
+    .card {
+        margin: 20px auto;
+    }
+
+    .footer {
+        margin:0px 0px;
+    }
+
+    .nav-logo-footer h2{
+    display: none;
+    }
+    #contact-us {
+        display: flex;
+    }
+
+    #contact-us i {
+        font-size: 32px;
+        margin-left: 10px;
+        border-radius: 50%;
+    }
+}
+
+/* medium */
+@media (min-width: 480px) and (max-width:768px) {
+    header {
+        padding: 0px 40px;
+        width: 100%;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 10;
+        color: white;
+        margin-top:20px;
+    }
+
+    .movie-info {
+        padding: 50px 30px;
+        margin-left: 50px;
+    }
+
+    #contact-us {
+        display: flex;
+    }
+
+    #booking-movie h2{
+    margin-top: 80px;
+    }
+    .footer {
+        padding: 0px 30px;
+        margin-left: -20px;
+    }
+
+    /* .copyRight a{
+        display: none;
+    } */
+
+    .navbar i {
+        display: none;
+    }
+
+}
+
+/* large */
+@media (min-width: 769px) and (max-width:1024px) {
+    header {
+        margin: 15px 0px;
+        width: 100%;
+    }
+.navbar{
+    padding: 0px 20px;
+}
+.movie-info {
+    padding: 50px 25px;
+    display: flex;
+    margin-left: 80px;
+}
+    #contact-us {
+        display: flex;
+    }
+
+    .footer {
+        padding: 0px 10px;
+        width: 100%;
+    }
+
+    .navbar i {
+        display: none;
+    }  
+}

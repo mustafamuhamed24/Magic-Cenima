@@ -1,0 +1,465 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    padding: 0px 40px;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+
+.nav-logo a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    color: white;
+    margin: 20px 50px;
+}
+
+#bar-icon {
+    position: absolute;
+    margin-top: 10px;
+    font-size: 29px;
+    visibility: hidden;
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+.navlist li a {
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-left: 25px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+.navlist li a:hover,
+.navlist .active {
+    transition: .3s;
+    border: 1px solid white;
+}
+
+
+.swiper {
+    height: 50rem;
+    position: relative;
+}
+
+/* spidder */
+.swiper-text-spider {
+    position: absolute;
+    z-index: 100;
+    color: white;
+    margin: 250px 1200px;
+    line-height: 30px;
+    width: 380px;
+}
+
+.swiper-text-spider p {
+    margin: 25px 0px;
+}
+
+.swiper-text-spider a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(91, 0, 0, 0.599);
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold
+}
+
+.swiper-text-spider a:hover {
+    padding: 14px;
+    transition: .3s
+}
+
+/* aqua */
+.swiper-text-aqua {
+    position: absolute;
+    z-index: 100;
+    color: white;
+    margin: 250px 150px;
+    line-height: 30px;
+    width: 350px;
+    font-weight: bold;
+}
+
+.swiper-text-aqua p {
+    margin: 25px 0px;
+}
+
+.swiper-text-aqua a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(173, 138, 48);
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.swiper-text-aqua a:hover {
+    padding: 14px;
+    transition: .3s
+}
+
+/* allien */
+.swiper-text-allien {
+    position: absolute;
+    z-index: 100;
+    color: white;
+    margin: 250px 150px;
+    line-height: 30px;
+    width: 350px;
+}
+
+.swiper-text-allien p {
+    margin: 25px 0px;
+}
+
+.swiper-text-allien a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(3, 9, 18);
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.swiper-text-allien a:hover {
+    padding: 14px;
+    transition: .3s
+}
+
+#movies {
+    margin: 50px 20px;
+    color: rgb(255, 255, 255);
+}
+
+#movies h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#movie-cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    display: inline-block;
+    padding: 2px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    margin: 0px auto;
+    width: 220px;
+}
+
+.card-text {
+    text-align: center;
+    line-height: 27px;
+    color: white;
+    padding: 3px;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+}
+
+.card img {
+    display: block;
+    width: 210px;
+    height: 270px;
+    cursor: pointer;
+}
+
+.card img:hover {
+    padding: 10px;
+    transition: .3s;
+}
+
+.card button{
+    border: 0px;
+    padding: 7px;
+    background-color: rgb(0, 55, 76);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 10px 32px;
+    width: 70%;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding:0px 170px;
+    align-items: center;
+    background-color: rgba(29, 37, 48, 0.348);
+    height: 5rem;
+}
+
+.nav-logo-footer {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo-footer a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+}
+
+.nav-logo-footer h2 {
+    margin-left: 15px;
+}
+
+
+#contact-us i {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+#contact-us i:hover {
+    font-size: 45px;
+    transition: .3s;
+}
+
+.copyRight a {
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.542);
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: medium;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* small */
+@media (min-width: 320px) and (max-width:479px) {
+    header {
+        position: relative;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 10;
+        color: white;
+        margin: 20px -10px;
+        margin-left: -30px;
+    }
+
+    #bar-icon {
+        position: absolute;
+        margin-top: 10px;
+        font-size: 29px;
+        visibility: visible;
+        margin-left: 90%;
+    }
+
+    .nav-logo {
+        width: 100%;
+    }
+
+    .navlist {
+        margin: 0px auto;
+        flex-direction: column;
+        line-height: 80px;
+        visibility: hidden;
+        height: 0;
+    }
+
+    .showNav {
+        margin: 0px auto;
+        flex-direction: column;
+        line-height: 80px;
+        visibility: visible;
+        height: auto;
+    }
+
+    .swiper {
+        height: 30rem;
+    }
+
+    .card {
+        margin: 20px;
+    }
+
+    .swiper {
+        height: 30rem;
+    }
+
+    .swiper-button-next {
+        visibility: hidden;
+    }
+
+    .swiper-button-prev {
+        visibility: hidden;
+    }
+
+    .swiper-text-spider {
+        margin-left: 35px;
+        margin-top: 100px;
+        width: 280px;
+    }
+
+    .swiper-text-allien {
+        margin-left: 35px;
+        margin-top: 100px;
+        width: 280px;
+    }
+
+    .swiper-text-aqua {
+        margin-left: 35px;
+        margin-top: 100px;
+        width: 280px;
+    }
+
+    .card {
+        margin: 20px auto;
+    }
+
+    .footer {
+        margin: 0px 0px;
+        padding: 0px 20px;
+        width: 100%;
+    }
+
+    .copyRight {
+        margin-left: 20px;
+    }
+
+    .nav-logo-footer h2 {
+        display: none;
+    }
+
+    #contact-us {
+        display: flex;
+    }
+
+    #contact-us i {
+        font-size: 32px;
+        margin-left: 10px;
+        border-radius: 50%;
+    }
+}
+
+/* medium */
+@media (min-width: 480px) and (max-width:768px) {
+    header {
+        padding: 0px 20px;
+        width: 100%;
+    }
+
+    .movie-info {
+        margin-left: 40px;
+    }
+
+    .swiper-text-spider {
+        margin-left: 120px;
+        margin-top: 250px;
+        width: 280px;
+    }
+
+    #contact-us {
+        display: flex;
+    }
+
+    .footer {
+        padding: 0px 20px;
+        width: 100%;
+    }
+
+    .copyRight {
+        display: none;
+    }
+
+    .navbar i {
+        display: none;
+    }
+
+}
+
+/* large */
+@media (min-width: 769px) and (max-width:1024px) {
+    header {
+        margin: 15px 0px;
+        width: 100%;
+    }
+
+    .movie-info {
+        margin-left: 50px;
+    }
+
+    .swiper-text-spider {
+        margin-left: 120px;
+        margin-top: 250px;
+        width: 280px;
+    }
+
+    #contact-us {
+        display: flex;
+    }
+
+    .footer {
+        padding: 0px 20px;
+        width: 100%;
+    }
+
+    .navbar i {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) and (max-width:1440px) {
+    .swiper-text-spider {
+        margin-left: 120px;
+        margin-top: 250px;
+        width: 280px;
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "movies":[
+        {
+            "name":"Expend4bles",
+            "category":"Action",
+            "actors":["Sylvester Stallone" , "Jason Statham" , "Dolph Lundgren"],
+            "time":["4:00PM","6:30PM","9:00PM"],
+            "poster":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ5PZTuvkysbhL2DSfDdyF99K9DuHbczj6xICF-0MVLtNHBJ89i"
+        },
+        {
+            "name":"The Last Voyage of the Demeter",
+            "category":"Horror/Fantasy",
+            "actors":["Aisling Franciosi","Javier Botet","Corey Hawkins","Liam Cunningham"],
+            "time":["9:00PM","12:30AM"],
+            "poster":"https://dx35vtwkllhj9.cloudfront.net/universalstudios/the-last-voyage-of-the-demeter/images/regions/us/onesheet.jpg"
+        },
+        {
+            "name":"Nowhere",
+            "category":"Drama/Thriller",
+            "actors":["Anna Castillo","Tamar Novas","Victoria"],
+            "time":["4:00PM","6:30PM"],
+            "poster":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSvCvNl1pWLKaETGdp-keqPmmD_U2uZVYFpJzYsg2UWWKi5rgSo"
+        },
+        {
+            "name":"Ghosted",
+            "category":"Action/Romance",
+            "actors":["Ana de Armas","Chris Evans","Lizze Broadway","Adrien Brody"],
+            "time":["4:00PM","6:30PM","9:00PM"],
+            "poster":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSgK93USuqNd_tjvrLg5Lmr-zlY6Wn05KbioX4Yo1zRsfyN6cIS"
+        },
+        {
+            "name":"Fast X",
+            "category":"Action/Adventure",
+            "actors":["Vin Diesel","Jason Momoa","Alan Ritchson","Rita Moreno"],
+            "time":["1:30PM","4:00PM","6:30PM","9:00PM"],
+            "poster":"https://movies.universalpictures.com/media/fstx-montage1sheet2-rgb-1-64108e93e63dd-1.jpg"
+        },
+        {
+            "name":"Mission Impossible - Dead Reckoning Part One",
+            "category":"Action/Thriller",
+            "actors":["Hayley Atwell","Tom Cruise","Rebecca Ferguson","Vanessa Kirby"],
+            "time":["4:00PM","6:30PM","9:00PM","12:30AM"],
+            "poster":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRPunAXQI8_X7p1MYVmiRF-hSOinkCiCqca8p9_0vB22qS2ttjx"
+        },
+        {
+            "name":"The Little Mermaid",
+            "category":"Musical/Fantasy",
+            "actors":["Halle Bailey","Javier Bardem","Melissa McCarthy","Jonah Hauer"],
+            "time":["4:00PM","6:30PM","9:00PM"],
+            "poster":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDpzRZ5cROWYHDz0e0kvi_yTOi_-ot_XpTnZaRspRCqtchtJK7"
+        }    
+    ]
+}
