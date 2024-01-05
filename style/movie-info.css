@@ -179,7 +179,7 @@ header {
     color: white;
     border: 0px;
     cursor: pointer;
-    margin-top: 10px;
+    margin: 20px;
 }
 
 #Booking:hover {
@@ -198,7 +198,7 @@ header {
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
-    padding: 5px 60px;
+    padding: 0px 20px;
     align-items: center;
     background-color: rgba(29, 37, 48, 0.348);
     height: 5rem;
@@ -251,7 +251,7 @@ header {
 
 
 /* small */
-@media (min-width: 320px) and (max-width:479px) {
+@media (min-width: 0px) and (max-width:479px) {
     header {
         position: relative;
     }
@@ -331,6 +331,10 @@ header {
         font-size: 32px;
         margin-left: 10px;
         border-radius: 50%;
+    }
+
+    .copyRight a{
+        display: none;
     }
 }
 
